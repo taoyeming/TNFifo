@@ -7,6 +7,7 @@
 //
 
 #import "TNFIFOAppDelegate.h"
+#import "TNFIFOViewController.h"
 
 @implementation TNFIFOAppDelegate
 
@@ -41,6 +42,12 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+//application:didRegisterUserNotificationSettings
+- (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings {
+    TNFIFOViewController *vc = (TNFIFOViewController *)[self window].rootViewController;
+    [vc application:application didRegisterUserNotificationSettings:notificationSettings];
 }
 
 @end

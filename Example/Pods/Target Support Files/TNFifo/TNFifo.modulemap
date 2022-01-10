@@ -1,0 +1,6 @@
+framework module TNFifo {
+  umbrella header "TNFifo-umbrella.h"
+
+  export *
+  module * { export * }
+}

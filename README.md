@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/TNFifo.svg?style=flat)](https://cocoapods.org/pods/TNFifo)
 [![Platform](https://img.shields.io/cocoapods/p/TNFifo.svg?style=flat)](https://cocoapods.org/pods/TNFifo)
 
+TNFifo为顺序执行任务的库，用于权限申请等情况
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

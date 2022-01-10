@@ -10,4 +10,6 @@
 
 @interface TNFIFOViewController : UIViewController
 
+- (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings;
+
 @end

@@ -1,0 +1,16 @@
+PODS:
+  - TNFifo (0.1.0)
+
+DEPENDENCIES:
+  - TNFifo (from `../`)
+
+EXTERNAL SOURCES:
+  TNFifo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TNFifo: 02b55db4f9d1ee33c5e2182ff815aee093372d43
+
+PODFILE CHECKSUM: 820c2e5ea2ffb5a4daf55c1c3ad6f9c4908b1176
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1325EF9FFA4FA4102B8ADB28A30317B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2350C0080BCFC98F59B642E361BB4F75 /* TNFifoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E46E45075DF71CD485D5A4676B5DBFBD /* TNFifoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2722E58CAB4ADB3EBDB9B12C81E1D684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3754BC1B8B493A954C9348297C8A504B /* Pods-TNFifo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F631ED13306E282E37BC766A8EBCE9DB /* Pods-TNFifo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49BB0C76E75A0F8B17AD4E504FDF05BD /* TNFifoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA86A58FF5A726EBC84C4243A145B9F /* TNFifoManager.m */; };
+		52AA8FAA3B502CC1841FAE4AC1F5BB1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7435E7CF5AD9B3CB7A6B43C177569F98 /* Pods-TNFifo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AA5811569D7FAB0DC731C5A3353198 /* Pods-TNFifo_Tests-dummy.m */; };
+		A4F912B04D1040C83D9C87BE1014AA4B /* TNFifo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C239ACA073CE7B977B67CCB07BB193A3 /* TNFifo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C82970D6960CC6586F580EC832837BCB /* Pods-TNFifo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6019617654BA70FB1AE8FF53CC377DC1 /* Pods-TNFifo_Example-dummy.m */; };
+		C925266CBD9A5927E0E242F218957E23 /* Pods-TNFifo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA4DAE733D07203CAD460D0EED4D936 /* Pods-TNFifo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D697B20F3AC1FA97111800EB70072D88 /* TNFifo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E3700035CB512A87CCC9AF5C8083AD /* TNFifo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5461ABAA4B2019908A92A8B74DCFEA16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6D07BBC700DD9D329B756597CC60E4D;
+			remoteInfo = TNFifo;
+		};
+		75B8163E82F003A2E655B1CA2D1DA9FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D448224A1AE40461BA8FED55831DDA5F;
+			remoteInfo = "Pods-TNFifo_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E7C1040CD4DCA9CCC27A84C2C1D5C02 /* Pods-TNFifo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TNFifo_Example-Info.plist"; sourceTree = "<group>"; };
+		18FB352B9F265F18953B358791345627 /* Pods-TNFifo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TNFifo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		19396E915F8A6FF683D24895E4111836 /* Pods-TNFifo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TNFifo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1E13737F9D39940C38125CB009D5948A /* Pods-TNFifo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TNFifo_Tests-Info.plist"; sourceTree = "<group>"; };
+		218724CC090AC4FF5F1A00D0772B1AEF /* Pods-TNFifo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TNFifo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		239C9BD2F1B2B3B8FFAA4A4DA94D61D8 /* TNFifo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TNFifo-prefix.pch"; sourceTree = "<group>"; };
+		2A95D877FDFF63218C25DEED4D8387DE /* TNFifo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TNFifo.modulemap; sourceTree = "<group>"; };
+		3F37768715AB6845C2096EC225FD4462 /* Pods-TNFifo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TNFifo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		47AA5811569D7FAB0DC731C5A3353198 /* Pods-TNFifo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TNFifo_Tests-dummy.m"; sourceTree = "<group>"; };
+		48A879FF4FD2B52E207007A07DC34B23 /* Pods-TNFifo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TNFifo_Tests.modulemap"; sourceTree = "<group>"; };
+		4F6F20BA860D63A1884FCC1C8CFA07BD /* Pods-TNFifo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TNFifo_Example.modulemap"; sourceTree = "<group>"; };
+		54E3700035CB512A87CCC9AF5C8083AD /* TNFifo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TNFifo-dummy.m"; sourceTree = "<group>"; };
+		5A235B1148C102AA879E28C944976643 /* Pods-TNFifo_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TNFifo_Tests"; path = Pods_TNFifo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6019617654BA70FB1AE8FF53CC377DC1 /* Pods-TNFifo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TNFifo_Example-dummy.m"; sourceTree = "<group>"; };
+		6139B78B9E8AF78178DE267AA6F71EE3 /* Pods-TNFifo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TNFifo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		639A1EC193CFBC48C863D626061B74A9 /* TNFifo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TNFifo.release.xcconfig; sourceTree = "<group>"; };
+		64032EA38AEA4AB4FD2702D6C81D79AE /* Pods-TNFifo_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TNFifo_Example"; path = Pods_TNFifo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		694029AD650B9A8A6CC85034762BA49B /* Pods-TNFifo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TNFifo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6C44B1552E470799FD47198793A6575C /* TNFifo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TNFifo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		746CBC1D1564C0A3B7E1121BD8CDD8BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		76FB0412FBF94B5FE6E835C85301B4C4 /* TNFifo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TNFifo; path = TNFifo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F6978C5A9DB2052E9219F343038705 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		995067966FBAF55A817DC8700B78E045 /* TNFifo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TNFifo.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF7753888DB3A23F77BDBBF52CC7771F /* Pods-TNFifo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TNFifo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD29D4640DDBA5EE69FD8743271D39BF /* TNFifo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TNFifo-Info.plist"; sourceTree = "<group>"; };
+		BFC04A9BBA796DFD47BB61935473172B /* Pods-TNFifo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TNFifo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C239ACA073CE7B977B67CCB07BB193A3 /* TNFifo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TNFifo-umbrella.h"; sourceTree = "<group>"; };
+		CBA4DAE733D07203CAD460D0EED4D936 /* Pods-TNFifo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TNFifo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E46E45075DF71CD485D5A4676B5DBFBD /* TNFifoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TNFifoManager.h; path = TNFifo/Classes/TNFifoManager.h; sourceTree = "<group>"; };
+		F631ED13306E282E37BC766A8EBCE9DB /* Pods-TNFifo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TNFifo_Example-umbrella.h"; sourceTree = "<group>"; };
+		FAA86A58FF5A726EBC84C4243A145B9F /* TNFifoManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TNFifoManager.m; path = TNFifo/Classes/TNFifoManager.m; sourceTree = "<group>"; };
+		FDC94F0C7CDFBEF26DBC8FA1FDEB6D08 /* Pods-TNFifo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TNFifo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		794D339980A91E9BAC6BDBF0C83DB082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1325EF9FFA4FA4102B8ADB28A30317B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8605FA785AD391FB23D2994BD51BA598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AA8FAA3B502CC1841FAE4AC1F5BB1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A27EF1C126F60CE1B72B7BD157CEB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2722E58CAB4ADB3EBDB9B12C81E1D684 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02888F1982CD50B290199DEEEDDE1A74 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE0CB1B59866B74CBC7F0849CCED27E3 /* Pods-TNFifo_Example */,
+				08F59EDFBB5794AE43CDDEEBDD81ABCC /* Pods-TNFifo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		08F59EDFBB5794AE43CDDEEBDD81ABCC /* Pods-TNFifo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				48A879FF4FD2B52E207007A07DC34B23 /* Pods-TNFifo_Tests.modulemap */,
+				AF7753888DB3A23F77BDBBF52CC7771F /* Pods-TNFifo_Tests-acknowledgements.markdown */,
+				BFC04A9BBA796DFD47BB61935473172B /* Pods-TNFifo_Tests-acknowledgements.plist */,
+				47AA5811569D7FAB0DC731C5A3353198 /* Pods-TNFifo_Tests-dummy.m */,
+				1E13737F9D39940C38125CB009D5948A /* Pods-TNFifo_Tests-Info.plist */,
+				CBA4DAE733D07203CAD460D0EED4D936 /* Pods-TNFifo_Tests-umbrella.h */,
+				18FB352B9F265F18953B358791345627 /* Pods-TNFifo_Tests.debug.xcconfig */,
+				19396E915F8A6FF683D24895E4111836 /* Pods-TNFifo_Tests.release.xcconfig */,
+			);
+			name = "Pods-TNFifo_Tests";
+			path = "Target Support Files/Pods-TNFifo_Tests";
+			sourceTree = "<group>";
+		};
+		2C65221B062231EE84245AA2DF4A7FB7 /* TNFifo */ = {
+			isa = PBXGroup;
+			children = (
+				E46E45075DF71CD485D5A4676B5DBFBD /* TNFifoManager.h */,
+				FAA86A58FF5A726EBC84C4243A145B9F /* TNFifoManager.m */,
+				7E8FD20662AFFBBD404AE8D48121568F /* Pod */,
+				F2DAA3B8FBD1B9A344BD6D41C2382B50 /* Support Files */,
+			);
+			name = TNFifo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		49C6C828CEAC7A55AA7E238542745D16 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C65221B062231EE84245AA2DF4A7FB7 /* TNFifo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7E8FD20662AFFBBD404AE8D48121568F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				746CBC1D1564C0A3B7E1121BD8CDD8BA /* LICENSE */,
+				91F6978C5A9DB2052E9219F343038705 /* README.md */,
+				6C44B1552E470799FD47198793A6575C /* TNFifo.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				49C6C828CEAC7A55AA7E238542745D16 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FE8BE10CB8AEC00EACA7461DD1A51074 /* Products */,
+				02888F1982CD50B290199DEEEDDE1A74 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE0CB1B59866B74CBC7F0849CCED27E3 /* Pods-TNFifo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4F6F20BA860D63A1884FCC1C8CFA07BD /* Pods-TNFifo_Example.modulemap */,
+				FDC94F0C7CDFBEF26DBC8FA1FDEB6D08 /* Pods-TNFifo_Example-acknowledgements.markdown */,
+				3F37768715AB6845C2096EC225FD4462 /* Pods-TNFifo_Example-acknowledgements.plist */,
+				6019617654BA70FB1AE8FF53CC377DC1 /* Pods-TNFifo_Example-dummy.m */,
+				218724CC090AC4FF5F1A00D0772B1AEF /* Pods-TNFifo_Example-frameworks.sh */,
+				0E7C1040CD4DCA9CCC27A84C2C1D5C02 /* Pods-TNFifo_Example-Info.plist */,
+				F631ED13306E282E37BC766A8EBCE9DB /* Pods-TNFifo_Example-umbrella.h */,
+				6139B78B9E8AF78178DE267AA6F71EE3 /* Pods-TNFifo_Example.debug.xcconfig */,
+				694029AD650B9A8A6CC85034762BA49B /* Pods-TNFifo_Example.release.xcconfig */,
+			);
+			name = "Pods-TNFifo_Example";
+			path = "Target Support Files/Pods-TNFifo_Example";
+			sourceTree = "<group>";
+		};
+		F2DAA3B8FBD1B9A344BD6D41C2382B50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A95D877FDFF63218C25DEED4D8387DE /* TNFifo.modulemap */,
+				54E3700035CB512A87CCC9AF5C8083AD /* TNFifo-dummy.m */,
+				BD29D4640DDBA5EE69FD8743271D39BF /* TNFifo-Info.plist */,
+				239C9BD2F1B2B3B8FFAA4A4DA94D61D8 /* TNFifo-prefix.pch */,
+				C239ACA073CE7B977B67CCB07BB193A3 /* TNFifo-umbrella.h */,
+				995067966FBAF55A817DC8700B78E045 /* TNFifo.debug.xcconfig */,
+				639A1EC193CFBC48C863D626061B74A9 /* TNFifo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TNFifo";
+			sourceTree = "<group>";
+		};
+		FE8BE10CB8AEC00EACA7461DD1A51074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64032EA38AEA4AB4FD2702D6C81D79AE /* Pods-TNFifo_Example */,
+				5A235B1148C102AA879E28C944976643 /* Pods-TNFifo_Tests */,
+				76FB0412FBF94B5FE6E835C85301B4C4 /* TNFifo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BA3DC08CE08E514B15E99723EE0D26D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C925266CBD9A5927E0E242F218957E23 /* Pods-TNFifo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E4DE18667912AEF86E8573D0732830 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3754BC1B8B493A954C9348297C8A504B /* Pods-TNFifo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7CEFE16656039A65137FD033BF9A1DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F912B04D1040C83D9C87BE1014AA4B /* TNFifo-umbrella.h in Headers */,
+				2350C0080BCFC98F59B642E361BB4F75 /* TNFifoManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7E3338CA8AC225BE205316FEF7250719 /* Pods-TNFifo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0488EA3A70920F5B65D0CA17829C15A7 /* Build configuration list for PBXNativeTarget "Pods-TNFifo_Tests" */;
+			buildPhases = (
+				1BA3DC08CE08E514B15E99723EE0D26D /* Headers */,
+				7ACDF9BBE09CD84C1A13548FC08B7419 /* Sources */,
+				794D339980A91E9BAC6BDBF0C83DB082 /* Frameworks */,
+				69D5B1268C4A350ECD3DCE2C05AF58C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F9585FF87852628F7057DFB2D48849F /* PBXTargetDependency */,
+			);
+			name = "Pods-TNFifo_Tests";
+			productName = Pods_TNFifo_Tests;
+			productReference = 5A235B1148C102AA879E28C944976643 /* Pods-TNFifo_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D448224A1AE40461BA8FED55831DDA5F /* Pods-TNFifo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E9B2C2B92B5401186EB978E2DA2B6F1 /* Build configuration list for PBXNativeTarget "Pods-TNFifo_Example" */;
+			buildPhases = (
+				A6E4DE18667912AEF86E8573D0732830 /* Headers */,
+				C5BDCD58B5F2C7B5FF27B69D00F20CCE /* Sources */,
+				8605FA785AD391FB23D2994BD51BA598 /* Frameworks */,
+				5DE47A976A6641C453CB334934DF8AB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80E3B9389CDE1D1CEF1E4DE4F9021BD8 /* PBXTargetDependency */,
+			);
+			name = "Pods-TNFifo_Example";
+			productName = Pods_TNFifo_Example;
+			productReference = 64032EA38AEA4AB4FD2702D6C81D79AE /* Pods-TNFifo_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6D07BBC700DD9D329B756597CC60E4D /* TNFifo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4452F8A86E5F18CF5DD2BF7F243A060E /* Build configuration list for PBXNativeTarget "TNFifo" */;
+			buildPhases = (
+				D7CEFE16656039A65137FD033BF9A1DA /* Headers */,
+				1FD3AAA1BCE7B35C43AD7A9967D7EEE6 /* Sources */,
+				D3A27EF1C126F60CE1B72B7BD157CEB6 /* Frameworks */,
+				9B22401A33310584D5242E76BF4FE2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TNFifo;
+			productName = TNFifo;
+			productReference = 76FB0412FBF94B5FE6E835C85301B4C4 /* TNFifo */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FE8BE10CB8AEC00EACA7461DD1A51074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D448224A1AE40461BA8FED55831DDA5F /* Pods-TNFifo_Example */,
+				7E3338CA8AC225BE205316FEF7250719 /* Pods-TNFifo_Tests */,
+				E6D07BBC700DD9D329B756597CC60E4D /* TNFifo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DE47A976A6641C453CB334934DF8AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D5B1268C4A350ECD3DCE2C05AF58C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B22401A33310584D5242E76BF4FE2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FD3AAA1BCE7B35C43AD7A9967D7EEE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D697B20F3AC1FA97111800EB70072D88 /* TNFifo-dummy.m in Sources */,
+				49BB0C76E75A0F8B17AD4E504FDF05BD /* TNFifoManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACDF9BBE09CD84C1A13548FC08B7419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7435E7CF5AD9B3CB7A6B43C177569F98 /* Pods-TNFifo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BDCD58B5F2C7B5FF27B69D00F20CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82970D6960CC6586F580EC832837BCB /* Pods-TNFifo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80E3B9389CDE1D1CEF1E4DE4F9021BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TNFifo;
+			target = E6D07BBC700DD9D329B756597CC60E4D /* TNFifo */;
+			targetProxy = 5461ABAA4B2019908A92A8B74DCFEA16 /* PBXContainerItemProxy */;
+		};
+		9F9585FF87852628F7057DFB2D48849F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TNFifo_Example";
+			target = D448224A1AE40461BA8FED55831DDA5F /* Pods-TNFifo_Example */;
+			targetProxy = 75B8163E82F003A2E655B1CA2D1DA9FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0430519D909AE3D1863CDE6A2ED0CC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18FB352B9F265F18953B358791345627 /* Pods-TNFifo_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TNFifo_Tests/Pods-TNFifo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TNFifo_Tests/Pods-TNFifo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3D9351547E9A9B7EEE8FB01125DA0DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 639A1EC193CFBC48C863D626061B74A9 /* TNFifo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TNFifo/TNFifo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TNFifo/TNFifo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TNFifo/TNFifo.modulemap";
+				PRODUCT_MODULE_NAME = TNFifo;
+				PRODUCT_NAME = TNFifo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		428B34790D2C80112B5135F2B77CA483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694029AD650B9A8A6CC85034762BA49B /* Pods-TNFifo_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TNFifo_Example/Pods-TNFifo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TNFifo_Example/Pods-TNFifo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		692CD82362EDE5525D930D233D0C0D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6139B78B9E8AF78178DE267AA6F71EE3 /* Pods-TNFifo_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TNFifo_Example/Pods-TNFifo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TNFifo_Example/Pods-TNFifo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		776F82434701AD05C4927E157CE251BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19396E915F8A6FF683D24895E4111836 /* Pods-TNFifo_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TNFifo_Tests/Pods-TNFifo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TNFifo_Tests/Pods-TNFifo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F62A2C53C1291E07084A6EFF35D40A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 995067966FBAF55A817DC8700B78E045 /* TNFifo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TNFifo/TNFifo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TNFifo/TNFifo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TNFifo/TNFifo.modulemap";
+				PRODUCT_MODULE_NAME = TNFifo;
+				PRODUCT_NAME = TNFifo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0488EA3A70920F5B65D0CA17829C15A7 /* Build configuration list for PBXNativeTarget "Pods-TNFifo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0430519D909AE3D1863CDE6A2ED0CC43 /* Debug */,
+				776F82434701AD05C4927E157CE251BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4452F8A86E5F18CF5DD2BF7F243A060E /* Build configuration list for PBXNativeTarget "TNFifo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62A2C53C1291E07084A6EFF35D40A70 /* Debug */,
+				3D9351547E9A9B7EEE8FB01125DA0DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E9B2C2B92B5401186EB978E2DA2B6F1 /* Build configuration list for PBXNativeTarget "Pods-TNFifo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692CD82362EDE5525D930D233D0C0D64 /* Debug */,
+				428B34790D2C80112B5135F2B77CA483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
